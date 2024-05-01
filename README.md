@@ -4,6 +4,10 @@
 ```
 git clone https://github.com/debobanerjee/LanguageDetection.git
 ```
+## create a virtual environment using conda
+```
+conda create -n lang-detect python=3.11 -c anaconda
+```
 ## Install Required Packages
 ```
 cd LanguageDetection
@@ -80,8 +84,8 @@ python generate_classification_report.py
 python generate_classification_report.py
 ```
 
-
 ## Getting Started with Model Inference
+### Download the model from shared (directory) 
 ```python
 from model import LanguageDetectionModelInference
 
