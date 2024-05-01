@@ -54,6 +54,7 @@ args:
         train_valid_step: True
         test_step: True
         classification_report:
+            digits: 3
             output_dict: False
         num_labels: 20
         datadir: "data"
