@@ -5,6 +5,11 @@
 pip install -r requirements.txt
 ```
 
+### Data Preprocessing
+```
+python preprocess_data.py
+```
+
 ### Training 
 ```
 python main.py
