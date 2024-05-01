@@ -1,12 +1,12 @@
 # LanguageDetection
 
-### Installation of Required Packages
+### Instal Required Packages
 ```
 pip install -r requirements.txt
 ```
 
 ### Data Preprocessing
-#### Setting configuration for data preprocessing inside `config.yml` file
+#### Set configuration for data preprocessing inside `config.yml` file
 ```yaml
 args
     preprocessing:
@@ -22,7 +22,7 @@ python preprocess_data.py
 ```
 
 ### Training 
-#### Setting configuration for training inside `config.yml` file
+#### Set training configuration inside `config.yml` file
 ```yaml
 args
     config
