@@ -102,7 +102,7 @@ mkdir -p output/models/experiment-4
 from model import LanguageDetectionModelInference
 
 # set the checkpoint path
-checkpoint_path = "output/models/experiment-4/xlm-roberta-base-language-detection-epoch-4-updated-with-meta-info.pth"
+checkpoint_path = "output/models/experiment-4/xlm-roberta-base-language-detection-best-model.pth"
 
 # create an instance of the language detection model inference
 model = LanguageDetectionModelInference(checkpoint_path)
