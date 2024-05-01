@@ -1,0 +1,10 @@
+torch==0.13.0
+scikit-learn
+transformers
+sentencepiece
+datasets
+evaluate
+huggingface_hub
+pandas
+pyyaml
+tensorboard
