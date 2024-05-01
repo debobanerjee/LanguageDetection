@@ -9,7 +9,7 @@ from model import LanguageDetectionModelInference
 checkpoint_path = "output/models/experiment-4/xlm-roberta-base-language-detection-epoch-4-updated-with-meta-info.pth"
 
 # create an instance of the language detection model inference
-model = LanguageDetectionModelInference(checkpoint_path, precision="half")
+model = LanguageDetectionModelInference(checkpoint_path)
 
 # list of documents
 documents = ["os chefes de defesa da estónia, letónia, lituânia, alemanha, itália, espanha e eslováquia assinarão o acordo para fornecer pessoal e financiamento para o centro.", 
