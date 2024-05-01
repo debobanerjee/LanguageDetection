@@ -114,6 +114,36 @@ python generate_classification_report.py
 python generate_classification_report.py
 ```
 
+### Results
+```
+precision    recall  f1-score   support
+
+          pt      0.998     0.998     0.998       500
+          pl      0.998     1.000     0.999       500
+          tr      0.994     1.000     0.997       500
+          el      1.000     1.000     1.000       500
+          bg      0.996     1.000     0.998       500
+          vi      1.000     1.000     1.000       500
+          ru      1.000     0.998     0.999       500
+          en      0.998     1.000     0.999       500
+          es      0.998     1.000     0.999       500
+          fr      1.000     1.000     1.000       500
+          th      1.000     1.000     1.000       500
+          zh      1.000     1.000     1.000       500
+          it      1.000     0.992     0.996       500
+          sw      0.986     0.996     0.991       500
+          de      1.000     1.000     1.000       500
+          ja      1.000     1.000     1.000       500
+          nl      1.000     0.998     0.999       500
+          ur      0.996     0.970     0.983       500
+          ar      1.000     0.998     0.999       500
+          hi      0.978     0.992     0.985       500
+
+    accuracy                          0.997     10000
+   macro avg      0.997     0.997     0.997     10000
+weighted avg      0.997     0.997     0.997     10000
+```
+
 ## Getting Started with Model Inference
 #### Download the model weights from the shared [directory](https://drive.google.com/file/d/1_c9gaM9x7xWU_GAYyDawzaYMF3JqqF2j/view?usp=sharing). 
 #### Change directory to LanguageDetection
