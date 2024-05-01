@@ -2,7 +2,7 @@
 
 
 ### Getting Started with Model Inference
-```
+```python
 from model import LanguageDetectionModelInference
 
 # set the checkpoint path
