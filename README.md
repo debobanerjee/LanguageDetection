@@ -56,6 +56,10 @@ args
 python main.py
 ```
 
+### Evaluation
+#### Set ```train_valid_step = False``` inside `config.yml` 
+
+
 ### Getting Started with Model Inference
 ```python
 from model import LanguageDetectionModelInference
