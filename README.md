@@ -181,6 +181,11 @@ labels = ["pt", "bg", "zh", "th", "de", "de", "en"]
 predictions = model.predict(documents=documents)
 print(f"Labels: {labels}\nPredictions :{predictions}")
 ```
+#### Output
+```
+Labels: ['pt', 'bg', 'zh', 'th', 'de', 'de', 'en']
+Predictions :['pt', 'bg', 'zh', 'th', 'de', 'de', 'en']
+```
 #### Or edit the `getting_started_model_inference.py` file and run it as shown below
 ```
 python getting_started_model_inference.py
