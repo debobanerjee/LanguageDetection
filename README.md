@@ -8,7 +8,7 @@ pip install -r requirements.txt
 ### Data Preprocessing
 #### Set configuration for data preprocessing inside `config.yml` file
 ```yaml
-# Sample Configuration for data preprocessinf
+# Sample Configuration for data preprocessing
 args
     preprocessing:
         dataset_repoid: "papluca/language-identification"
@@ -25,6 +25,7 @@ python preprocess_data.py
 ### Training 
 #### Set training configuration inside `config.yml` file
 ```yaml
+# Sample training configuration
 args
     config
         experiment: 1
