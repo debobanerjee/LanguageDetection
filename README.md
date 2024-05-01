@@ -70,7 +70,10 @@ python main.py
 python generate_classification_report.py
 ```
 #### For saving classfication report in a json file
-##### `Set outfit_dict: True` inside `config.yml`
+##### Set `outfit_dict: True` inside `config.yml`, then execute
+```
+python generate_classification_report.py
+```
 
 
 ### Getting Started with Model Inference
