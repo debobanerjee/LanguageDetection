@@ -1,5 +1,9 @@
 # LanguageDetection
 
+## Clone this repository
+```
+git clone  
+```
 ## Install Required Packages
 ```
 pip install -r requirements.txt
