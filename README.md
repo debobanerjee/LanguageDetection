@@ -5,6 +5,11 @@
 pip install -r requirements.txt
 ```
 
+### Training 
+```
+python main.py
+```
+
 ### Getting Started with Model Inference
 ```python
 from model import LanguageDetectionModelInference
