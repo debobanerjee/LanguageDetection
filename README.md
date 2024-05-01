@@ -1,12 +1,12 @@
 # LanguageDetection
 
-### Instal Required Packages
+## Instal Required Packages
 ```
 pip install -r requirements.txt
 ```
 
-### Data Preprocessing
-#### Set configuration for data preprocessing inside `config.yml` file
+## Data Preprocessing
+### Set configuration for data preprocessing inside `config.yml` file
 ```yaml
 # Sample Configuration for data preprocessing
 args
@@ -17,13 +17,13 @@ args
         datadir: "data"
         label_column: "labels"
 ```
-#### Start Data Preprocessing
+### Start Data Preprocessing
 ```
 python preprocess_data.py
 ```
 
-### Training 
-#### Set training configuration inside `config.yml` file
+## Training 
+### Set training configuration inside `config.yml` file
 ```yaml
 # Sample training configuration
 args
@@ -44,6 +44,8 @@ args
         precision: "full"
         train_valid_step: True
         test_step: True
+        classification_report:
+            output_dict: False
         num_labels: 20
         datadir: "data"
         preprocessed_datadir: "data/preprocessed"
@@ -51,17 +53,24 @@ args
         results_dir: "output/results/experiment-1/"
         log_dir: "output/logs/experiment-1"
 ```
-#### Start Training
+### Start Training
 ```
 python main.py
 ```
 
-### Evaluation
-#### Set `train_valid_step = False` inside `config.yml` 
+## Evaluation
+##### Set `train_valid_step: False` inside `config.yml` 
 ### Start Evaluation
 ```
 python main.py
 ```
+### Generate Classification Report
+#### For printing the classfication report execute
+```
+python generate_classification_report.py
+```
+#### For saving classfication report in a json file
+##### `Set outfit_dict: True` inside `config.yml`
 
 
 ### Getting Started with Model Inference
