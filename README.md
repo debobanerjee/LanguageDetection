@@ -57,7 +57,11 @@ python main.py
 ```
 
 ### Evaluation
-#### Set ```train_valid_step = False``` inside `config.yml` 
+#### Set `train_valid_step = False` inside `config.yml` 
+### Start Evaluation
+```
+python main.py
+```
 
 
 ### Getting Started with Model Inference
