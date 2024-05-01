@@ -2,7 +2,7 @@
 
 ## Clone this repository
 ```
-git clone  
+git clone https://github.com/debobanerjee/LanguageDetection.git
 ```
 ## Install Required Packages
 ```
