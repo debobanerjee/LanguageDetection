@@ -6,6 +6,7 @@ git clone https://github.com/debobanerjee/LanguageDetection.git
 ```
 ## Install Required Packages
 ```
+cd LanguageDetection
 pip install -r requirements.txt
 ```
 
