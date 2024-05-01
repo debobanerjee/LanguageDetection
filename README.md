@@ -51,7 +51,7 @@ args
         results_dir: "output/results/experiment-1/"
         log_dir: "output/logs/experiment-1"
 ```
-
+#### Start Training
 ```
 python main.py
 ```
