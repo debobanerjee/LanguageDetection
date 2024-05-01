@@ -39,6 +39,7 @@ python preprocess_data.py
 
 ## Training 
 #### Fine-tuning has been done on the following GPU configuration
+```
 +-----------------------------------------------------------------------------+
 | NVIDIA-SMI 460.32.03    Driver Version: 460.32.03    CUDA Version: 11.2     |
 |-------------------------------+----------------------+----------------------+
@@ -58,6 +59,7 @@ python preprocess_data.py
 |=============================================================================|
 |  No running processes found                                                 |
 +-----------------------------------------------------------------------------+
+```
 
 ### Set training configuration inside `config.yml` file
 ```yaml
