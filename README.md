@@ -32,7 +32,7 @@ python preprocess_data.py
 ```yaml
 # Sample training configuration
 args:
-    config
+    config-1:
         experiment: 1
         dataset_repoid: "papluca/language-identification"
         model_str: "FacebookAI/xlm-roberta-base"
