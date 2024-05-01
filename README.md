@@ -1,6 +1,6 @@
 # LanguageDetection
 
-## Instal Required Packages
+## Install Required Packages
 ```
 pip install -r requirements.txt
 ```
