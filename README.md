@@ -8,6 +8,7 @@ pip install -r requirements.txt
 ### Data Preprocessing
 #### Set configuration for data preprocessing inside `config.yml` file
 ```yaml
+# Sample Configuration for data preprocessinf
 args
     preprocessing:
         dataset_repoid: "papluca/language-identification"
