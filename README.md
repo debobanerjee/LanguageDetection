@@ -6,7 +6,7 @@ The [XLM-RoBERTa-base](https://huggingface.co/FacebookAI/xlm-roberta-base) model
 ## Datasets
 For fine-tuning and evaluation, the [Language Identification](https://huggingface.co/datasets/papluca/language-identification) dataset has been used, which consists of 90k (train/valid/test split are 70k/10k/10k, respectively) text sequences spanning 20 different languages.
 
-## Clone this repository
+## For Fine-tuning and Evaluation, first clone this repository
 ```
 git clone https://github.com/debobanerjee/LanguageDetection.git
 ```
