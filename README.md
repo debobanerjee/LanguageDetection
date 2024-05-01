@@ -8,29 +8,7 @@ pip install -r requirements.txt
 ### Data Preprocessing
 #### Set data preprocessing configuration inside config.yaml file
 ```yaml
-config-5:
-        experiment: 5
-        dataset_repoid: "papluca/language-identification"
-        model_str: "FacebookAI/xlm-roberta-base"
-        batch_size: 8
-        num_epochs: 5
-        starting_epoch: 0
-        lr: 2e-6
-        optimizer: "adam"
-        embedding_dim: 768
-        max_seq_len: 512
-        dropout_prob: 0.1
-        f1_metric_average: "weighted"
-        weight_decay: 1e-5
-        precision: "full"
-        train_valid_step: True
-        test_step: True
-        num_labels: 20
-        datadir: "data"
-        preprocessed_datadir: "data/preprocessed"
-        model_ckpt_dir: "output/models/experiment-5"
-        results_dir: "output/results/experiment-5/"
-        log_dir: "output/logs/experiment-5"
+args
     preprocessing:
         dataset_repoid: "papluca/language-identification"
         repo_type: "dataset"
