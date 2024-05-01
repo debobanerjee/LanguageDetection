@@ -1,5 +1,11 @@
 # LanguageDetection
 
+## Model Description
+The (XLM-RoBERTa-base)[https://huggingface.co/FacebookAI/xlm-roberta-base] model (pre-trained on 2.5TB of filtered CommonCrawl data containing 100 languages) has been adopted to build a language detection model~-~XLM-RoBERTa-base-Language-Detection (similar to https://huggingface.co/papluca/xlm-roberta-base-language-detection).
+
+## Datasets
+For fine-tuning and evaluation, the (Language Identification)[https://huggingface.co/datasets/papluca/language-identification] dataset has been used, which consists of 90k (train/valid/test split are 70k/10k/10k, respectively) text sequences spanning 20 different languages.
+
 ## Clone this repository
 ```
 git clone https://github.com/debobanerjee/LanguageDetection.git
