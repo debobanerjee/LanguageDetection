@@ -23,7 +23,7 @@ python preprocess_data.py
 
 ### Training 
 #### Setting configuration for training inside `config.yml` file
-```
+```yaml
 args
     config
         experiment: 1
