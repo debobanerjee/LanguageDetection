@@ -6,7 +6,7 @@ pip install -r requirements.txt
 ```
 
 ### Data Preprocessing
-#### Set data preprocessing configuration inside config.yaml file
+#### Set data preprocessing configuration inside `config.yaml` file
 ```yaml
 args
     preprocessing:
