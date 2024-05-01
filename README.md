@@ -86,11 +86,19 @@ python generate_classification_report.py
 ```
 
 ## Getting Started with Model Inference
-#### Download the model weights from the shared [directory](https://drive.google.com/file/d/1_c9gaM9x7xWU_GAYyDawzaYMF3JqqF2j/view?usp=sharing). Copy the downloaded file into "output/models/experiment-4/" directory.
+#### Download the model weights from the shared [directory](https://drive.google.com/file/d/1_c9gaM9x7xWU_GAYyDawzaYMF3JqqF2j/view?usp=sharing). 
 #### Change directory to LanguageDetection
 ```
 cd LanguageDetection
 ```
+#### Create the following models directory
+```
+mkdir output
+mkdir output/models
+mkdir output/models/experiment-4
+```
+#### Copy the downloaded model file into `output/models/experiment-4` directory.
+
 #### Execute the below code
 ```python
 from model import LanguageDetectionModelInference
