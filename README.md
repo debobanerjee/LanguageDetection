@@ -81,7 +81,7 @@ python generate_classification_report.py
 ```
 
 
-### Getting Started with Model Inference
+## Getting Started with Model Inference
 ```python
 from model import LanguageDetectionModelInference
 
