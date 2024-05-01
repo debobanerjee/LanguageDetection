@@ -116,7 +116,7 @@ python generate_classification_report.py
 
 ### Results
 ```
-precision    recall  f1-score   support
+                precision    recall  f1-score   support
 
           pt      0.998     0.998     0.998       500
           pl      0.998     1.000     0.999       500
