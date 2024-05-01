@@ -93,9 +93,7 @@ cd LanguageDetection
 ```
 #### Create the following models directory
 ```
-mkdir output
-mkdir output/models
-mkdir output/models/experiment-4
+mkdir -p output/models/experiment-4
 ```
 #### Copy the downloaded model file into `output/models/experiment-4` directory.
 
