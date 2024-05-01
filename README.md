@@ -114,7 +114,7 @@ python generate_classification_report.py
 python generate_classification_report.py
 ```
 
-### Results
+### Results on the Test Set
 ```
                 precision    recall  f1-score   support
 
@@ -180,4 +180,8 @@ labels = ["pt", "bg", "zh", "th", "de", "de", "en"]
 
 predictions = model.predict(documents=documents)
 print(f"Labels: {labels}\nPredictions :{predictions}")
+```
+#### Or edit the `getting_started_model_inference.py` file and run it as shown below
+```
+python getting_started_model_inference.py
 ```
