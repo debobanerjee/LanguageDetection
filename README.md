@@ -1,5 +1,9 @@
 # LanguageDetection
 
+`
+pip install -r requirements.txt
+`
+
 
 ### Getting Started with Model Inference
 ```python
