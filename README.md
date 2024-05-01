@@ -65,11 +65,11 @@ python main.py
 python main.py
 ```
 ### Generate Classification Report
-#### For printing the classfication report execute
+#### For printing the classification report execute
 ```
 python generate_classification_report.py
 ```
-#### For saving classfication report in a json file
+#### For saving classification report in a json file
 ##### Set `outfit_dict: True` inside `config.yml`, then execute
 ```
 python generate_classification_report.py
