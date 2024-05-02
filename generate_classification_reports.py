@@ -19,6 +19,8 @@ def main(args):
     report = model.get_classification_report(y_true, documents=documents, 
                                              disgits=args["classfication_report"]["digits"],  
                                              output_dict=args["classification_report"]["output_dict"])
+    
+    os.makedirs(args["results_dir"], exist_ok=True)
     if args["classification_report"]["output_dict"]:
         with open(args["results_dir"]+"/classification_report.json", "w") as f:
             json.dump(report, f)
