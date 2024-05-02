@@ -26,9 +26,9 @@ def main(args):
     experiment = args["experiment"]
 
     #create directories for logs, results, and models
-    os.makedirs(f"output/logs/experiment-{str(experiment)}/", exist_ok=True)
-    os.makedirs(f"output/results/experiment-{str(experiment)}", exist_ok=True)
-    os.makedirs(f"output/models/experiment-{str(experiment)}", exist_ok=True)
+    os.makedirs(args["log_dir"], exist_ok=True)
+    os.makedirs(args["results_dir"], exist_ok=True)
+    os.makedirs(args["model_ckpt_dir"], exist_ok=True)
 
     # set custom handler to logger
     logger.addHandler(settings.get_logger_handler(experiment))
