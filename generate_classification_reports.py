@@ -1,9 +1,9 @@
 from sklearn.metrics import classification_report
 from model import LanguageDetectionModelInference
-# import langid
 import yaml
 import pandas as pd
 import json
+import os
 
 def main(args):
     test_dataset = pd.read_csv(args["preprocessed_datadir"] + "/test_dataset.csv")
