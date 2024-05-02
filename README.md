@@ -66,8 +66,8 @@ python preprocess_data.py
 ```yaml
 # Sample training configuration
 args:
-    config-1:
-        experiment: 1
+    config-4:
+        experiment: 4
         dataset_repoid: "papluca/language-identification"
         model_str: "FacebookAI/xlm-roberta-base"
         batch_size: 8
@@ -89,9 +89,9 @@ args:
         num_labels: 20
         datadir: "data"
         preprocessed_datadir: "data/preprocessed"
-        model_ckpt_dir: "output/models/experiment-1"
-        results_dir: "output/results/experiment-1/"
-        log_dir: "output/logs/experiment-1"
+        model_ckpt_dir: "output/models/experiment-4"
+        results_dir: "output/results/experiment-4"
+        log_dir: "output/logs/experiment-4"
 ```
 ### Start Training
 ```
