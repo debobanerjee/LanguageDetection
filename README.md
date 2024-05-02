@@ -10,9 +10,10 @@ For fine-tuning and evaluation, the [Language Identification](https://huggingfac
 ```
 git clone https://github.com/debobanerjee/LanguageDetection.git
 ```
-## create a virtual environment using conda
+## create a virtual environment using conda and activate it
 ```
 conda create -n lang-detect python=3.11 -c anaconda
+conda activate lang-detect
 ```
 ## Install Required Packages
 ```
